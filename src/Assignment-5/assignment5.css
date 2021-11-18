@@ -14,47 +14,41 @@
     margin-right: 30px;
 }
 
-
-/* .flex-container {
-    background-image: linear-gradient(90deg, lightgreen 50%, white 50%);
-    background-size: 70%;
-} */
+.flex-container {
+    display: flex;
+    background: linear-gradient(to right, lightgreen 40%, white 10%);
+    display: flex;
+    margin: 10%;
+}
 
 .card section {
     display: inline-block;
-    width: 45%;
-    margin-top: 20px;
+    width: 50%;
+    margin-top: -5%;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -5%;
 }
 
 .card section img {
     height: 50%;
-    width: 50%;
-    transform: scale(1.4);
-    vertical-align: top;
+    width: 85%;
+    transform: scale(1.5);
+    text-align: center;
+    float: left;
 }
-
-
-/* .card section a {
-    vertical-align: bottom;
-} */
 
 .sec {
     height: 50%;
     width: 50%;
-    text-align: center;
-    background-image: linear-gradient(90deg, lightgreen 50%, white 50%);
+    text-align: center
 }
 
 .sec1 {
     width: 50%;
     height: 50%;
     float: right;
-}
-
-.sec1 a {
-    vertical-align: bottom;
+    vertical-align: middle;
+    padding: 10%;
 }
 
 .sec1 h1 {
@@ -63,6 +57,7 @@
 
 .sec1 p {
     vertical-align: middle;
+    text-align: justify;
 }
 
 a {
